@@ -1,0 +1,263 @@
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Font;
+import java.awt.FontFormatException;
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
+import java.awt.GridLayout;
+import java.awt.Insets;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
+
+import javax.swing.BorderFactory;
+import javax.swing.ButtonGroup;
+import javax.swing.ImageIcon;
+import javax.swing.JCheckBox;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JRadioButton;
+import javax.swing.JSpinner;
+import javax.swing.SpinnerNumberModel;
+
+/** 
+ * TODO
+ */
+public class PizzaShopCalculator extends JFrame{
+	/**
+	 * 
+	 */
+	public static final int WIDTH = 700;
+	public static final int HEIGHT = 500;
+	private static final long serialVersionUID = 1L;
+	ImageIcon logo;
+	JPanel basePanel;
+	JPanel welcomePanel;
+	JPanel toppingsPanel;
+	JPanel largePanel;
+	JPanel drinksPanel;
+	JLabel baseLabel;
+	private JLabel welcomeLabel;
+	JLabel toppingsLabel;
+	JLabel drinksLabel;
+	JRadioButton thinCrust;
+	JRadioButton thickCrust;
+	JRadioButton regCrust;
+	private Font font;
+	private InputStream is;
+	private JPanel mainPanel;
+	private JPanel headerPanel;
+	
+	PizzaShopCalculator() throws FontFormatException, IOException {
+		super();
+		setSize(WIDTH, HEIGHT);
+		setTitle("~Pizza Shop Calculator~");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setLayout(new GridBagLayout());
+		logo = new ImageIcon(".//res//pizza.png");
+		setIconImage(logo.getImage());
+		GridBagConstraints gbc = new GridBagConstraints();
+		
+		buildWelcomePanel();
+		gbc.gridx = 0;
+        gbc.gridy = 0;
+        gbc.gridwidth = 3; 
+        gbc.weightx = 1.0;
+        gbc.weighty = 0.1;
+        gbc.fill = GridBagConstraints.BOTH;
+        gbc.insets = new Insets(20, 0, 10, 0);
+		add(welcomePanel, gbc);
+			
+		buildHeaderPanels();
+		gbc.gridx = 0;
+        gbc.gridy = 1;
+        gbc.gridwidth = 3; 
+        //gbc.weightx = 1.0;
+        //gbc.weighty = 0.1;
+        gbc.fill = GridBagConstraints.BOTH;
+        gbc.insets = new Insets(20, 0, 10, 0);
+		add(headerPanel);
+		
+		buildBasePanel(); // builds the base panel
+		gbc.gridx = 0;
+        gbc.gridy = 2;
+        gbc.gridwidth = 1;
+        gbc.weightx = 0.33; // Don't take extra horizontal space
+        gbc.weighty = 0.6; // Take 50% of extra vertical space
+        gbc.fill = GridBagConstraints.BOTH;
+        gbc.insets = new Insets(0,0,0,25);
+		add(basePanel, gbc); // adds base panel
+		
+		buildToppingsPanel();
+		gbc.gridx = 1;
+		gbc.gridy = 2;
+		gbc.gridwidth = 1;
+		gbc.weightx = 0.33;
+		gbc.weighty = 0.6;
+		gbc.fill = GridBagConstraints.BOTH;
+		gbc.insets = new Insets(0,0,0,25);
+		add(toppingsPanel, gbc);
+		
+		buildDrinksPanel();
+		gbc.gridx = 2;
+		gbc.gridy = 2;
+		gbc.gridwidth = 1;
+		gbc.weightx = 0.33;
+		gbc.weighty = 0.6;
+		gbc.fill = GridBagConstraints.BOTH;
+		gbc.insets = new Insets(0,0,0,25);
+		add(drinksPanel, gbc);
+				
+		mainPanel = new JPanel(new GridLayout(1,3,10,0));
+		mainPanel.add(basePanel);
+		mainPanel.add(toppingsPanel);
+		mainPanel.add(drinksPanel);
+		gbc.gridx = 0;
+		gbc.gridy = 1;
+		gbc.gridwidth = 3;
+		gbc.weightx = 1.0;
+		gbc.weighty = 0.9;
+		gbc.fill = GridBagConstraints.BOTH;
+		add(mainPanel, gbc);
+
+		setVisible(true);
+	}
+	
+	/**
+	 * method to build the welcome panel
+	 */
+	public void buildWelcomePanel() {
+		welcomePanel = new JPanel();
+		welcomePanel.setLayout(new BorderLayout());
+		
+		welcomeLabel = new JLabel("PIZZA SHOP");
+		welcomeLabel.setHorizontalAlignment(JLabel.CENTER);
+		welcomePanel.add(welcomeLabel, BorderLayout.NORTH);
+		
+		try {
+			is = new FileInputStream(".//res//DynaPuff-SemiBold.ttf");
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		try {
+			font = Font.createFont(Font.TRUETYPE_FONT, is);
+		} catch (FontFormatException | IOException e) {
+			// TODO Auto-generated catch block
+			welcomeLabel.setFont(new Font("Arial", Font.BOLD, 48));
+			e.printStackTrace();
+		}
+		welcomeLabel.setFont(font.deriveFont(Font.BOLD, 48f));
+	}
+	
+	public void buildHeaderPanels() {
+		headerPanel = new JPanel();
+		headerPanel.setLayout(new GridLayout(1,3));
+		
+		baseLabel = new JLabel("---------Base---------");
+		baseLabel.setHorizontalAlignment(JLabel.LEFT);
+		headerPanel.add(baseLabel);
+		
+		toppingsLabel = new JLabel("-----------TOPPINGS-----------");
+		toppingsLabel.setHorizontalAlignment(JLabel.CENTER);
+		headerPanel.add(toppingsLabel);
+		
+		drinksLabel = new JLabel("-----------Drinks-----------");		
+		drinksLabel.setHorizontalAlignment(JLabel.RIGHT);
+		headerPanel.add(drinksLabel);
+		
+		
+	}
+	
+	/**
+	 * method used to build the base Panel
+	 */
+	public void buildBasePanel() {
+		basePanel = new JPanel();
+		basePanel.setLayout(new GridLayout(3, 1, 1, 1));
+		/**
+		baseLabel = new JLabel("---------Base---------");
+		baseLabel.setHorizontalAlignment(JLabel.LEFT);
+		basePanel.add(baseLabel);
+		*/
+		thinCrust = new JRadioButton("Thin Crust");
+		thickCrust = new JRadioButton("Thick Crust");
+		regCrust = new JRadioButton("Regular Crust");
+		
+		ButtonGroup crustGroup = new ButtonGroup();
+        crustGroup.add(thinCrust);
+        crustGroup.add(thickCrust);
+        crustGroup.add(regCrust);
+        
+		basePanel.add(thinCrust);
+		basePanel.add(thickCrust);
+		basePanel.add(regCrust);
+		
+	}
+	
+	/**
+	 * method used to build toppings panel
+	 */
+	public void buildToppingsPanel() {
+		toppingsPanel = new JPanel();
+		toppingsPanel.setLayout(new GridLayout(7,1));
+		/**
+		toppingsLabel = new JLabel("-----------TOPPINGS-----------");
+		toppingsLabel.setHorizontalAlignment(JLabel.CENTER);
+		toppingsPanel.add(toppingsLabel);
+		*/
+		JCheckBox pep = new JCheckBox("Pepporini");
+		JCheckBox cheese = new JCheckBox("Cheese");
+		JCheckBox mushrooms = new JCheckBox("Mushrooms");
+		JCheckBox jalepenos = new JCheckBox("Jalepenos");
+		JCheckBox anchovies = new JCheckBox("Anchovies");
+		JCheckBox pineapple = new JCheckBox("Pineapple");
+		
+		toppingsPanel.add(pep);
+		toppingsPanel.add(cheese);
+		toppingsPanel.add(mushrooms);
+		toppingsPanel.add(jalepenos);
+		toppingsPanel.add(anchovies);
+		toppingsPanel.add(pineapple);
+		
+	}
+	
+	public void buildDrinksPanel() {
+		drinksPanel = new JPanel();
+		drinksPanel.setLayout(new GridLayout(6,1));
+		/**
+		drinksLabel = new JLabel("-----------Drinks-----------");		
+		drinksLabel.setHorizontalAlignment(JLabel.RIGHT);
+		drinksPanel.add(drinksLabel);
+		*/
+		JRadioButton coke = new JRadioButton("Coke");
+		JRadioButton pepsi = new JRadioButton("Pepsi");
+		JRadioButton drPepper = new JRadioButton("Dr. Pepper");
+		JRadioButton sweetTea = new JRadioButton("Sweet Tea");
+		JRadioButton lemonade = new JRadioButton("Lemonade");
+		
+		ButtonGroup drinksGroup = new ButtonGroup();
+		drinksGroup.add(coke);
+		drinksGroup.add(pepsi);
+		drinksGroup.add(drPepper);
+		drinksGroup.add(sweetTea);
+		drinksGroup.add(lemonade);
+		
+		JSpinner spinner = new JSpinner(new SpinnerNumberModel(0,0,10,1));
+		
+		drinksPanel.add(coke);
+		drinksPanel.add(pepsi);
+		drinksPanel.add(drPepper);
+		drinksPanel.add(sweetTea);
+		drinksPanel.add(lemonade);
+		drinksPanel.add(spinner);
+		
+	}
+	public static void main(String[] args) throws FontFormatException, IOException {
+		PizzaShopCalculator ps = new PizzaShopCalculator();
+		ps.setVisible(true);
+	}
+
+}

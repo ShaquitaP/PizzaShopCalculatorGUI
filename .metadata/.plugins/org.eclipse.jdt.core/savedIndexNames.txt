@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+C:\Users\shaqu\OneDrive\UWF\java-pinto\in-progress\ProgrammingProject6\.metadata\.plugins\org.eclipse.jdt.core
+1093817712.index
+2389730876.index
+2954530214.index
+1865797976.index

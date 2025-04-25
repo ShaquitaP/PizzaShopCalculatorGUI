@@ -1,0 +1,19 @@
+import java.awt.GridLayout;
+
+import javax.swing.JPanel;
+
+public class PizzaInfoPanel extends JPanel{
+	
+	public void PizzaInfoPanel() {
+		setLayout(new GridLayout(1,3,5,0));
+		
+		basePanelInfo basePanel = new basePanelInfo();
+		add(basePanel);
+		
+		ToppingsPanelInfo toppingsPanel = new ToppingsPanelInfo();
+		add(toppingsPanel);
+		
+		DrinksPanelInfo drinksPanel = new DrinksPanelInfo();
+		add(drinksPanel);
+	}
+}

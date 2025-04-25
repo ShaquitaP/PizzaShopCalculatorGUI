@@ -1,0 +1,34 @@
+import java.awt.GridLayout;
+import java.util.ArrayList;
+
+import javax.swing.ButtonGroup;
+import javax.swing.JPanel;
+import javax.swing.JRadioButton;
+import javax.swing.border.TitledBorder;
+
+public class BasePanelInfo extends JPanel {
+
+	
+	public BasePanelInfo() {
+		final String BASE = "BASE";
+		TitledBorder baseTitle = new TitledBorder(BASE);
+		baseTitle.setTitleJustification(TitledBorder.CENTER);
+		setBorder(baseTitle);
+		setLayout(new GridLayout(3,1,0,1));
+		
+		JRadioButton thinCrust = new JRadioButton("Thin Crust");
+		JRadioButton thickCrust = new JRadioButton("Thick Crust");
+		JRadioButton regCrust = new JRadioButton("Regular Crust");
+
+		
+		
+		ButtonGroup crustGroup = new ButtonGroup();
+        crustGroup.add(thinCrust);
+        crustGroup.add(thickCrust);
+        crustGroup.add(regCrust);
+        
+        add(thinCrust);
+		add(thickCrust);
+		add(regCrust);
+	}
+}

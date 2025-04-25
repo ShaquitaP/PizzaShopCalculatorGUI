@@ -1,0 +1,436 @@
+!SESSION 2025-04-17 21:10:05.782 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-17 21:10:07.000
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-17 21:11:07.672
+!MESSAGE Logback config file: C:\Users\shaqu\OneDrive\UWF\java-pinto\in-progress\ProgrammingProject6\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-17 21:11:11.176
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\shaqu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2025-04-18 08:17:04.603 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-18 08:17:06.724
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-18 08:17:12.033
+!MESSAGE Logback config file: C:\Users\shaqu\OneDrive\UWF\java-pinto\in-progress\ProgrammingProject6\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-18 08:17:18.305
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\shaqu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2025-04-18 09:24:55.970 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-18 09:24:57.053
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-18 09:24:59.422
+!MESSAGE Logback config file: C:\Users\shaqu\OneDrive\UWF\java-pinto\in-progress\ProgrammingProject6\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-18 09:25:03.254
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\shaqu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2025-04-18 18:30:04.789 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-18 18:30:06.523
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-18 18:30:52.162
+!MESSAGE Logback config file: C:\Users\shaqu\OneDrive\UWF\java-pinto\in-progress\ProgrammingProject6\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-18 18:30:56.872
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\shaqu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2025-04-23 20:49:17.729 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-23 20:49:18.936
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-23 20:49:22.474
+!MESSAGE Logback config file: C:\Users\shaqu\OneDrive\UWF\java-pinto\in-progress\ProgrammingProject6\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-23 20:49:27.343
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\shaqu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2025-04-23 21:12:47.310 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-23 21:12:48.488
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-23 21:13:31.086
+!MESSAGE Logback config file: C:\Users\shaqu\OneDrive\UWF\java-pinto\in-progress\ProgrammingProject6\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-23 21:13:36.269
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\shaqu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.ui 4 0 2025-04-23 22:20:07.231
+!MESSAGE OperationCanceledException computing hover information in PizzaShopCalculator.java at offset 2708
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.jdt.internal.core.AbstractClassFile.getClassFileContent(AbstractClassFile.java:239)
+	at org.eclipse.jdt.internal.core.ClassFile.getJarBinaryTypeInfo(ClassFile.java:225)
+	at org.eclipse.jdt.internal.core.ClassFile.getBinaryTypeInfo(ClassFile.java:186)
+	at org.eclipse.jdt.internal.core.ClassFile.buildStructure(ClassFile.java:78)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
+	at org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:127)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.BinaryType.getElementInfo(BinaryType.java:292)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:278)
+	at org.eclipse.jdt.internal.core.BinaryType.getElementInfo(BinaryType.java:1142)
+	at org.eclipse.jdt.internal.core.BinaryType.getFlags(BinaryType.java:357)
+	at org.eclipse.jdt.internal.core.SearchableEnvironmentRequestor.acceptType(SearchableEnvironmentRequestor.java:127)
+	at org.eclipse.jdt.internal.core.NameLookup.seekTypesInBinaryPackage(NameLookup.java:1510)
+	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1442)
+	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1348)
+	at org.eclipse.jdt.internal.core.NameLookup.findAllTypes(NameLookup.java:422)
+	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1418)
+	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1348)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:964)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:766)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:592)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:571)
+	at org.eclipse.jdt.internal.codeassist.SelectionEngine.select(SelectionEngine.java:1048)
+	at org.eclipse.jdt.internal.core.Openable.codeSelect(Openable.java:167)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:471)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:461)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractJavaEditorTextHover.getJavaElementsAt(AbstractJavaEditorTextHover.java:122)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.lambda$0(JavadocHover.java:713)
+	at org.eclipse.jdt.internal.core.JavaModelManager.cacheZipFiles(JavaModelManager.java:5694)
+	at org.eclipse.jdt.internal.core.JavaModelManager.callReadOnly(JavaModelManager.java:5683)
+	at org.eclipse.jdt.core.JavaCore.callReadOnly(JavaCore.java:6150)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:713)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:709)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+	Suppressed: java.lang.Throwable: Source line 99 :
+-----
+	}
+	
+	public void baseInfo() {
+		final String BASE = "BASE";
+		TitledBorder baseTitle = new TitledBorder(BASE);
+		baseTitle.setTitleJustification(TitledBorder.CENTER);
+		basePanel = new JPanel();
+		basePanel.setBorder(baseTitle);
+		
+		JRadioButtonthinCrust = new JRadioButton("Thin Crust");
+		thickCrust = |new JRadioButton("Thick Crust");
+-----
+		at org.eclipse.jdt.internal.ui.util.SelectionUtil.logException(SelectionUtil.java:150)
+		at org.eclipse.jdt.internal.ui.text.java.hover.AbstractJavaEditorTextHover.getJavaElementsAt(AbstractJavaEditorTextHover.java:124)
+		... 10 more
+!SESSION 2025-04-24 11:55:16.926 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-24 11:55:18.439
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-24 11:55:22.656
+!MESSAGE Logback config file: C:\Users\shaqu\OneDrive\UWF\java-pinto\in-progress\ProgrammingProject6\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-24 11:55:27.339
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\shaqu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.ui 4 0 2025-04-24 12:33:22.093
+!MESSAGE OperationCanceledException computing hover information in PizzaShopCalculator.java at offset 2346
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.jdt.internal.core.AbstractClassFile.getClassFileContent(AbstractClassFile.java:239)
+	at org.eclipse.jdt.internal.core.ClassFile.getJarBinaryTypeInfo(ClassFile.java:225)
+	at org.eclipse.jdt.internal.core.ClassFile.getBinaryTypeInfo(ClassFile.java:186)
+	at org.eclipse.jdt.internal.core.ClassFile.buildStructure(ClassFile.java:78)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
+	at org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:127)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.BinaryType.getElementInfo(BinaryType.java:292)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:278)
+	at org.eclipse.jdt.internal.core.BinaryType.getElementInfo(BinaryType.java:1142)
+	at org.eclipse.jdt.internal.core.BinaryType.getFlags(BinaryType.java:357)
+	at org.eclipse.jdt.internal.core.SearchableEnvironmentRequestor.acceptType(SearchableEnvironmentRequestor.java:127)
+	at org.eclipse.jdt.internal.core.NameLookup.seekTypesInBinaryPackage(NameLookup.java:1510)
+	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1442)
+	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1348)
+	at org.eclipse.jdt.internal.core.NameLookup.findAllTypes(NameLookup.java:422)
+	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1418)
+	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1348)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:964)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:766)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:592)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:571)
+	at org.eclipse.jdt.internal.codeassist.SelectionEngine.select(SelectionEngine.java:1048)
+	at org.eclipse.jdt.internal.core.Openable.codeSelect(Openable.java:167)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:471)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:461)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractJavaEditorTextHover.getJavaElementsAt(AbstractJavaEditorTextHover.java:122)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.lambda$0(JavadocHover.java:713)
+	at org.eclipse.jdt.internal.core.JavaModelManager.cacheZipFiles(JavaModelManager.java:5694)
+	at org.eclipse.jdt.internal.core.JavaModelManager.callReadOnly(JavaModelManager.java:5683)
+	at org.eclipse.jdt.core.JavaCore.callReadOnly(JavaCore.java:6150)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:713)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:709)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+	Suppressed: java.lang.Throwable: Source line 80 :
+-----
+	
+	public void buildDiscountPanel() {
+		discountPanel = new JPanel();
+		JLabel discountWarning = new JLabel("Must Show ID at Pickup");
+		
+		JCheckBox senior = new JCheckBox("65+");
+		JCheckBox hero = new JCheckBox("Military & First Responder");
+		JCheckBox student = new JCheckBox("Students");
+		JRadioButton senior = new JRadioButton("Coke");
+		JRadioButton hero = new JRadioButton("Pepsi");
+		JRadioButton drPeppe = |new JRadioButton("Dr. Pepper");
+-----
+		at org.eclipse.jdt.internal.ui.util.SelectionUtil.logException(SelectionUtil.java:150)
+		at org.eclipse.jdt.internal.ui.text.java.hover.AbstractJavaEditorTextHover.getJavaElementsAt(AbstractJavaEditorTextHover.java:124)
+		... 10 more
+!SESSION 2025-04-24 18:31:59.193 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-24 18:32:00.325
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-24 18:32:03.623
+!MESSAGE Logback config file: C:\Users\shaqu\OneDrive\UWF\java-pinto\in-progress\ProgrammingProject6\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-24 18:32:08.166
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\shaqu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2025-04-25 13:44:11.185 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-25 13:44:12.623
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-25 13:44:16.901
+!MESSAGE Logback config file: C:\Users\shaqu\OneDrive\UWF\java-pinto\in-progress\ProgrammingProject6\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-25 13:44:21.989
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\shaqu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2025-04-25 13:47:48.624
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/guari/eclipse-ui-theme/master/com.github.eclipseuitheme.themes.updatesite/content.jar
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2025-04-25 13:47:48.826
+!MESSAGE Server returned lastModified <= 0 for https://raw.githubusercontent.com/PyvesB/eclipse-planet-themes/updatesite/content.xml.xz
+
+!ENTRY org.eclipse.equinox.p2.operations 2 0 2025-04-25 13:48:21.111
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2025-04-25 13:48:21.111
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.111
+!MESSAGE "Apache Commons Codec" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.111
+!MESSAGE "Core :: Server" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.111
+!MESSAGE "Core :: Utilities" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.111
+!MESSAGE "Java implementation of Git - ssh support using Apache MINA sshd" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.111
+!MESSAGE "Core :: IO" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.111
+!MESSAGE "Java implementation of Git" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.111
+!MESSAGE "Git integration for Eclipse" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.111
+!MESSAGE "Apache Mina SSHD :: OSGi" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.111
+!MESSAGE "bcprov" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2025-04-25 13:48:21.111
+!MESSAGE "Apache Ant" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.111
+!MESSAGE "Core :: Security" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2025-04-25 13:48:21.111
+!MESSAGE "slf4j-api" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.111
+!MESSAGE "bcpg" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.111
+!MESSAGE "Java implementation of Git - optional Http support using Apache httpclient" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.111
+!MESSAGE "jna" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.111
+!MESSAGE "Apache Mina SSHD :: SFTP" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.111
+!MESSAGE "bcpkix" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.111
+!MESSAGE "jna-platform" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.111
+!MESSAGE "bcutil" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.111
+!MESSAGE "Gson" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.111
+!MESSAGE "Java implementation of Git - GPG support using BouncyCastle" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2025-04-25 13:48:21.111
+!MESSAGE "OSGi System Bundle" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.111
+!MESSAGE "Core :: HTTP" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10007 2025-04-25 13:48:21.111
+!MESSAGE "Apache Commons Codec" cannot be fully uninstalled because other installed software requires it.  The parts that are not required will be uninstalled.
+
+!ENTRY org.eclipse.equinox.p2.operations 2 0 2025-04-25 13:48:21.128
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2025-04-25 13:48:21.128
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.128
+!MESSAGE "Apache Commons Codec" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.128
+!MESSAGE "Core :: Server" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.128
+!MESSAGE "Core :: Utilities" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.128
+!MESSAGE "Java implementation of Git - ssh support using Apache MINA sshd" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.128
+!MESSAGE "Core :: IO" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.128
+!MESSAGE "Java implementation of Git" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.128
+!MESSAGE "Git integration for Eclipse" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.128
+!MESSAGE "Apache Mina SSHD :: OSGi" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.128
+!MESSAGE "bcprov" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2025-04-25 13:48:21.128
+!MESSAGE "Apache Ant" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.128
+!MESSAGE "Core :: Security" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2025-04-25 13:48:21.128
+!MESSAGE "slf4j-api" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.129
+!MESSAGE "bcpg" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.129
+!MESSAGE "Java implementation of Git - optional Http support using Apache httpclient" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.129
+!MESSAGE "jna" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.129
+!MESSAGE "Apache Mina SSHD :: SFTP" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.129
+!MESSAGE "bcpkix" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.129
+!MESSAGE "jna-platform" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.129
+!MESSAGE "bcutil" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.129
+!MESSAGE "Gson" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.129
+!MESSAGE "Java implementation of Git - GPG support using BouncyCastle" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2025-04-25 13:48:21.129
+!MESSAGE "OSGi System Bundle" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2025-04-25 13:48:21.129
+!MESSAGE "Core :: HTTP" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10007 2025-04-25 13:48:21.129
+!MESSAGE "Apache Commons Codec" cannot be fully uninstalled because other installed software requires it.  The parts that are not required will be uninstalled.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2025-04-25 13:48:22.185
+!MESSAGE Server returned lastModified <= 0 for https://raw.githubusercontent.com/PyvesB/eclipse-planet-themes/updatesite/artifacts.xml.xz
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2025-04-25 13:48:26.706
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/guari/eclipse-ui-theme/master/com.github.eclipseuitheme.themes.updatesite/artifacts.jar
+!SESSION 2025-04-25 13:53:04.628 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/C:/Users/shaqu/OneDrive/UWF/java-pinto/in-progress/ProgrammingProject6/
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-25 13:53:07.774
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-25 13:53:09.157
+!MESSAGE Logback config file: C:\Users\shaqu\OneDrive\UWF\java-pinto\in-progress\ProgrammingProject6\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-25 13:53:14.456
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\shaqu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

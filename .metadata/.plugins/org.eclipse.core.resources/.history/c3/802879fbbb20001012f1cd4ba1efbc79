@@ -1,0 +1,176 @@
+import java.awt.BorderLayout;
+import java.awt.Font;
+import java.awt.FontFormatException;
+import java.awt.GridLayout;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
+
+import javax.swing.ButtonGroup;
+import javax.swing.ImageIcon;
+import javax.swing.JCheckBox;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JRadioButton;
+import javax.swing.JSpinner;
+import javax.swing.SpinnerNumberModel;
+import javax.swing.border.TitledBorder;
+
+public class PizzaShopCalculator extends JFrame {
+	private static final int WIDTH = 700;
+	private static final int HEIGHT = 500;
+	private static final long serialVersionUID = 1L;
+	private ImageIcon logo;
+	private JPanel welcomePanel;
+	private JLabel welcomeLabel;
+	private InputStream is;
+	private Font font;
+	private JPanel pizzaInfoPanel;
+	private JPanel basePanel;
+	private JPanel toppingsPanel;
+	private JPanel drinksPanel;
+	
+	
+	PizzaShopCalculator() {
+		super();
+		setSize(WIDTH, HEIGHT);
+		setTitle("Pizza Sop Calculator");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setLayout(new GridLayout(4,0,0,2));
+		logo = new ImageIcon(".//res//pizza.png");
+		setIconImage(logo.getImage());
+		
+		buildWelcomePanel();
+		add(welcomePanel);
+		
+		buildPizzaInfoPanel();
+		add(pizzaInfoPanel);
+		
+	}
+	
+
+	/**
+	 * method to build the welcome panel
+	 */
+	public void buildWelcomePanel() {
+		welcomePanel = new JPanel();
+		welcomePanel.setLayout(new BorderLayout());
+		
+		welcomeLabel = new JLabel("PIZZA SHOP");
+		welcomeLabel.setHorizontalAlignment(JLabel.CENTER);
+		welcomePanel.add(welcomeLabel, BorderLayout.NORTH);
+		
+		try {
+			is = new FileInputStream(".//res//DynaPuff-SemiBold.ttf");
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		try {
+			font = Font.createFont(Font.TRUETYPE_FONT, is);
+		} catch (FontFormatException | IOException e) {
+			// TODO Auto-generated catch block
+			welcomeLabel.setFont(new Font("Arial", Font.BOLD, 48));
+			e.printStackTrace();
+		}
+		welcomeLabel.setFont(font.deriveFont(Font.BOLD, 48f));
+	}
+	
+	public void buildPizzaInfoPanel() {
+		pizzaInfoPanel = new JPanel();
+		pizzaInfoPanel.setLayout(new GridLayout(1,3,5,0));
+		
+		baseInfo();
+		pizzaInfoPanel.add(basePanel);
+		
+		toppingsInfo();
+		pizzaInfoPanel.add(toppingsPanel);
+		
+		drinksInfo();
+		pizzaInfoPanel.add(drinksPanel);
+	}
+	
+	public void baseInfo() {
+		final String BASE = "BASE";
+		TitledBorder baseTitle = new TitledBorder(BASE);
+		baseTitle.setTitleJustification(TitledBorder.CENTER);
+		basePanel = new JPanel();
+		basePanel.setBorder(baseTitle);
+		basePanel.setLayout(new GridLayout(3,1,0,1));
+		
+		JRadioButton thinCrust = new JRadioButton("Thin Crust");
+		JRadioButton thickCrust = new JRadioButton("Thick Crust");
+		JRadioButton regCrust = new JRadioButton("Regular Crust");
+		
+		ButtonGroup crustGroup = new ButtonGroup();
+        crustGroup.add(thinCrust);
+        crustGroup.add(thickCrust);
+        crustGroup.add(regCrust);
+        
+        basePanel.add(thinCrust);
+		basePanel.add(thickCrust);
+		basePanel.add(regCrust);
+	}
+	
+	public void toppingsInfo() {
+		final String BASE = "TOPPINGS";
+		TitledBorder toppingsTitle = new TitledBorder(BASE);
+		toppingsTitle.setTitleJustification(TitledBorder.CENTER);
+		toppingsPanel = new JPanel();
+		toppingsPanel.setBorder(toppingsTitle);
+		toppingsPanel.setLayout(new GridLayout(6,1,0,5));
+		
+		JCheckBox pep = new JCheckBox("Pepporoni");
+		JCheckBox cheese = new JCheckBox("Cheese");
+		JCheckBox mushrooms = new JCheckBox("Mushrooms");
+		JCheckBox jalepenos = new JCheckBox("Jalepenos");
+		JCheckBox anchovies = new JCheckBox("Anchovies");
+		JCheckBox pineapple = new JCheckBox("Pineapple");
+		
+		toppingsPanel.add(pep);
+		toppingsPanel.add(cheese);
+		toppingsPanel.add(mushrooms);
+		toppingsPanel.add(jalepenos);
+		toppingsPanel.add(anchovies);
+		toppingsPanel.add(pineapple);
+		
+	}
+	
+	public void drinksInfo() {
+		final String BASE = "DRINKS";
+		TitledBorder drinksTitle = new TitledBorder(BASE);
+		drinksTitle.setTitleJustification(TitledBorder.CENTER);
+		drinksPanel = new JPanel();
+		drinksPanel.setBorder(drinksTitle);
+		drinksPanel.setLayout(new GridLayout(6,1,0,2));
+		
+		JRadioButton coke = new JRadioButton("Coke");
+		JRadioButton pepsi = new JRadioButton("Pepsi");
+		JRadioButton drPepper = new JRadioButton("Dr. Pepper");
+		JRadioButton sweetTea = new JRadioButton("Sweet Tea");
+		JRadioButton lemonade = new JRadioButton("Lemonade");
+		
+		ButtonGroup drinksGroup = new ButtonGroup();
+		drinksGroup.add(coke);
+		drinksGroup.add(pepsi);
+		drinksGroup.add(drPepper);
+		drinksGroup.add(sweetTea);
+		drinksGroup.add(lemonade);
+		
+		JSpinner spinner = new JSpinner(new SpinnerNumberModel(0,0,10,1));
+		
+		drinksPanel.add(coke);
+		drinksPanel.add(pepsi);
+		drinksPanel.add(drPepper);
+		drinksPanel.add(sweetTea);
+		drinksPanel.add(lemonade);
+		drinksPanel.add(spinner);
+	}
+	
+	public static void main(String[] args) throws FontFormatException, IOException {
+		PizzaShopCalculator ps = new PizzaShopCalculator();
+		ps.setVisible(true);
+	}
+}

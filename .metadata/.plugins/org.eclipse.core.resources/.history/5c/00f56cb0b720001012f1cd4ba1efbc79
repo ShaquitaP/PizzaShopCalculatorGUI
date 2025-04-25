@@ -1,0 +1,71 @@
+import java.awt.BorderLayout;
+import java.awt.Font;
+import java.awt.FontFormatException;
+import java.awt.GridLayout;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
+
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+public class PizzaShopCalculator extends JFrame {
+	private static final int WIDTH = 700;
+	private static final int HEIGHT = 500;
+	private static final long serialVersionUID = 1L;
+	private ImageIcon logo;
+	private JPanel welcomePanel;
+	private JLabel welcomeLabel;
+	private InputStream is;
+	private Font font;
+	
+	
+	PizzaShopCalculator() {
+		super();
+		setSize(WIDTH, HEIGHT);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setLayout(new GridLayout(4,0,0,3));
+		logo = new ImageIcon(".//res//pizza.png");
+		setIconImage(logo.getImage());
+		
+		buildWelcomePanel();
+		add(welcomePanel);
+		
+	}
+	
+
+	/**
+	 * method to build the welcome panel
+	 */
+	public void buildWelcomePanel() {
+		welcomePanel = new JPanel();
+		welcomePanel.setLayout(new BorderLayout());
+		
+		welcomeLabel = new JLabel("PIZZA SHOP");
+		welcomeLabel.setHorizontalAlignment(JLabel.CENTER);
+		welcomePanel.add(welcomeLabel, BorderLayout.NORTH);
+		
+		try {
+			is = new FileInputStream(".//res//DynaPuff-SemiBold.ttf");
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		try {
+			font = Font.createFont(Font.TRUETYPE_FONT, is);
+		} catch (FontFormatException | IOException e) {
+			// TODO Auto-generated catch block
+			welcomeLabel.setFont(new Font("Arial", Font.BOLD, 48));
+			e.printStackTrace();
+		}
+		welcomeLabel.setFont(font.deriveFont(Font.BOLD, 48f));
+	}
+	
+	public static void main(String[] args) throws FontFormatException, IOException {
+		PizzaShopCalculator ps = new PizzaShopCalculator();
+		ps.setVisible(true);
+	}
+}
