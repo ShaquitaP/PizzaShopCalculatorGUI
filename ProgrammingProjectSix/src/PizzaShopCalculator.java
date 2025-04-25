@@ -3,6 +3,8 @@ import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.FontFormatException;
 import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -28,14 +30,12 @@ public class PizzaShopCalculator extends JFrame {
 	private WelcomeBannerBuild welcomePanel;
 	private PizzaInfoPanel pizzaInfoPanel;
 	private DiscountPanel discountPanel;
-	private InputStream is;
-	private Font font;
 	private JPanel buttonPanel;
 	
-	PizzaShopCalculator() {
+	public PizzaShopCalculator() {
 		super();
 		setSize(WIDTH, HEIGHT);
-		setTitle("Pizza Sop Calculator");
+		setTitle("Pizza Shop Calculator");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setLayout(new GridLayout(4,0,0,2));
 		logo = new ImageIcon(".//res//pizza.png");
@@ -55,14 +55,32 @@ public class PizzaShopCalculator extends JFrame {
 		
 	}
 
-	
 	public void buildButtonPanel() {
 		JButton calculateButton = new JButton("CALCULATE");
 		JButton exitButton = new JButton("EXIT");
 		buttonPanel = new JPanel();
 		
+		CalculateListener calListener = new CalculateListener();
+		ExitListener eListener = new ExitListener();
+		calculateButton.addActionListener(calListener);
+		exitButton.addActionListener(eListener);
+		
 		buttonPanel.add(calculateButton);
 		buttonPanel.add(exitButton);
+	}
+	
+	private class CalculateListener implements ActionListener {
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			//CalculateWindow cw = new CalculateWindow(this);
+			
+		}
+	}
+	private class ExitListener implements ActionListener {
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			System.exit(ABORT);
+		}
 	}
 	
 	public static void main(String[] args) throws FontFormatException, IOException {
